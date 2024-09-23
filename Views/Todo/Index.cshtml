@@ -1,0 +1,28 @@
+@model List<TodoListApp.Models.TodoItem>
+
+<h2>Todo List</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Complete</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Title</td>
+                <td>@item.IsComplete</td>
+                <td>
+                    <a href="/Todo/ToggleComplete/@item.Id" class="btn btn-primary">Toggle Complete</a>
+                    <a href="/Todo/Delete/@item.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a href="/Todo/Create" class="btn btn-success">Add New Todo</a>

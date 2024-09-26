@@ -3,14 +3,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using TodoListApp.Models;
+using TodoListApp.Data;
 
 #nullable disable
 
 namespace TodoListApp.Migrations
 {
     [DbContext(typeof(TodoContext))]
-    [Migration("20240923175045_InitialCreate")]
+    [Migration("20240926103842_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />

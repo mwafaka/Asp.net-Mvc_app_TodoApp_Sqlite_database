@@ -1,6 +1,6 @@
 # Create TodoList with .net mvc app(.net 8) and sqlite database
 
-##  - Step 1: Install .NET 8 SDK on Linux
+##  Step 1: Install .NET 8 SDK on Linux
 - 01
 
 ```bash

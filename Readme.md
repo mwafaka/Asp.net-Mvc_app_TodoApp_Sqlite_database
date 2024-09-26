@@ -142,7 +142,7 @@ namespace TodoListApp.Controllers
 
 ```
 
-## Create the Create View:
+- Create the Create View:
 
 - Inside the Views/Todo folder, create a file named Create.cshtml:
 
